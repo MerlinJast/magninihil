@@ -1,0 +1,29 @@
+{
+  "name": "magninihil",
+  "workspaces": [
+    "packages/*"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint && yarn prepack",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "husky": "^4.2.5",
+    "conventional-changelog-cli": "^2.0.34",
+    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/cli": "^9.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MerlinJast/magninihil.git"
+  },
+  "author": "MelynaJohnson",
+  "bugs": {
+    "url": "https://github.com/MerlinJast/magninihil.git/issues"
+  },
+  "homepage": "https://github.com/MerlinJast/magninihil.git",
+  "version": "1.0.0"
+}

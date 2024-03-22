@@ -1,0 +1,13 @@
+{
+  "files": [], // container only
+  "references": [{
+      "path": "src"
+    },
+    {
+      "path": "test"
+    },
+    {
+      "path": "test/pp"
+    }
+  ]
+}
